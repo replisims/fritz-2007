@@ -105,7 +105,7 @@ Data generation can be summarized with the following pseudo code:
 
 \texttt{Repeat the following procedure for each: the causal steps approach, joint significance test, Sobel test, and PRODCLIN:}
 \begin{itemize}[leftmargin=*] 
-	\item[--] \texttt{Generate 100000 samples of data for three variables (X, M, and Y) based on the effect size parameter estimates for sample size N (initially 200, then iteraatively adjusted)}
+	\item[--] \texttt{Generate 100000 samples of data for three variables (X, M, and Y) based on the effect size parameter estimates for sample size N (initially 200, then iteratively adjusted)}
 	\item[--] \texttt{Run OLS regressions and calculate the indirect effect estimate for each sample}
 	\item[--] \texttt{Test the statistical significance of the indirect effect estimate}
 	\begin{itemize}
