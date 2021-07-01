@@ -94,7 +94,6 @@ Previous literature on the mediated effect, which is calculated by multiplying t
 The design was full factorial, so each of the 64 permutations of effect size parameters was tested using each of the six methods for testing the indirect effect.
 
 
-`<You can add pseudocode or a flowchart to illustrate the data generation or the entire simulation design>`
 \begin{minipage}{\linewidth}
 Data generation can be summarized with the following pseudo code:
 
