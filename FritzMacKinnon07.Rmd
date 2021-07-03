@@ -94,7 +94,6 @@ Previous literature on the mediated effect, which is calculated by multiplying t
 The design was full factorial, so each of the 64 permutations of effect size parameters was tested using each of the six methods for testing the indirect effect.
 
 
-`<You can add pseudocode or a flowchart to illustrate the data generation or the entire simulation design>`
 \begin{minipage}{\linewidth}
 Data generation can be summarized with the following pseudo code:
 
@@ -106,7 +105,7 @@ Data generation can be summarized with the following pseudo code:
 
 \texttt{Repeat the following procedure for each: the causal steps approach, joint significance test, Sobel test, and PRODCLIN:}
 \begin{itemize}[leftmargin=*] 
-	\item[--] \texttt{Generate 100000 samples of data for three variables (X, M, and Y) based on the effect size parameter estimates for sample size N (initially 200, then iteraatively adjusted)}
+	\item[--] \texttt{Generate 100000 samples of data for three variables (X, M, and Y) based on the effect size parameter estimates for sample size N (initially 200, then iteratively adjusted)}
 	\item[--] \texttt{Run OLS regressions and calculate the indirect effect estimate for each sample}
 	\item[--] \texttt{Test the statistical significance of the indirect effect estimate}
 	\begin{itemize}
@@ -151,7 +150,7 @@ The six methods were as follows:
 \subsection{Technical implementation}
 While the original simulation study was carried out for all single-sample simulations using SAS Version 8.2 (SAS Institute, 2004), and all resampling simulations were conducted using R Version 2.2.0 (R Development Core Team, 2006). Our replication was implemented
 using the R programming environment (details regarding software versions can be obtained from the section Reproducibility Information). 
-The corresponding R code can be obtained from https://github.com/replisims/jfossum. 
+The corresponding R code can be obtained from https://github.com/replisims/fritz-2007. 
 <!-- Add zenodo doi once obtained-->
 
 The following are an overview of replicator degrees of freedom, 
