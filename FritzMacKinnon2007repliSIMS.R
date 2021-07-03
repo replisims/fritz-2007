@@ -358,10 +358,6 @@ for (b in 1:length(bpath)){  # change to 1:length(bpath)
   }
 }
 
-write.csv(samplesizesMatrix, "samplesizeMatrix.csv")
-
-
-
 
 ## Put together table
 library(tidyverse)
